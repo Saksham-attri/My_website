@@ -13,44 +13,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Sacramento&display=swap');
     </style>
 </head>
 
 <body>
+    <header>
+        <nav id="nav-bar">
+            <nav-link>
+                <a href=#about-me class="link">About me</a>
+            </nav-link>
+            <nav-link>
+                <a href=#skill class="link">Skills</a>
+            </nav-link>
+            <nav-link>
+                <a href=#contact class="link">Get in touch</a>
+            </nav-link>
+            
+        </nav>
+    </header>
     <div class="top">
         <img class="cloud-a" src="images/cloud.png" alt="cloud">
         <h1 class="head">I'm Saksham</h1><br>
         <h2>A <span>Pro</span>grammer.</h2>
-        <img src="images/mountain.png" alt="mountain">
+        <img class="development"src="images/mountain.png" alt="mountain">
         <img class="cloud-b" src="images/cloud.png" alt="cloud">
     </div>
     <div class="middle-container">
-        <div class="profile">
-            <img class="man" src="images/man.png" alt="programmer">
+        <div class="profile" id="about-me">
+            <img class="development" src="images/man.png" alt="programmer">
             <h2>Hello.</h2>
             <p class="intro">My name is Saksham Attri, I am 20 years old self taught programmer from India.
             </p>
         </div>
         <hr>
-        <div class="skills">
+        <div class="skills" id="skill">
             <h2>My Skills.</h2>
             <div class="skill-row">
-                <img class="development" src="images/web-development.png" alt="coding-image">
+                <img id="flt" class="development" src="images/web-development.png" alt="coding-image">
                 <h3>What can I do?</h3>
                 <p>Develop beautiful websites both frontend and backend ready and Dapp development.</p>
             </div>
             <div class="skill-row">
                 <iframe src="https://giphy.com/embed/5eLDrEaRGHegx2FeF2" width="250" height="220" frameBorder="0"
-                    class="giphy" allowFullScreen></iframe>
+                    class="development" id="giphy" allowFullScreen></iframe>
 
                 <h3>Hobbies</h3>
                 <p>When I'm not working, you'll find me reading books, watching anime, playing video games.</p>
             </div>
         </div>
         <hr>
-        <div class="contact-me">
+        <div class="contact-me" id="contact">
             <h2>Get In Touch</h2>
             <h3>Love anime as much as I do?</h3>
             <p class="last-para">Let's talk about what your favourite anime are, while you describe what kind of

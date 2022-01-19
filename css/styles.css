@@ -47,6 +47,11 @@ h3 {
     color: #B3323F;
 }
 
+header {
+    background-color: #FA4659;
+}
+
+
 span {
     text-decoration: underline;
 }
@@ -104,8 +109,8 @@ span {
 }
 
 .development {
-    float: left;
-    width: 25%;
+    max-width: 100%;
+    height: auto;
     margin-right: 30px;
 }
 
@@ -115,14 +120,14 @@ span {
 
 }
 
-.giphy {
+#giphy {
     float: right;
     margin-bottom: 0;
 
 }
 
 .intro{
-    width: 30%;
+    max-width: 30%;
     margin: auto auto;
 }
 
@@ -132,7 +137,14 @@ span {
     
 }
 
+.link {
+    margin-right: 1vw;
+    color: #40514E;
+}
+
 .middle-container {
+    max-width: 100%;
+    height: auto;
     margin: 100px 0;
 }
 
@@ -142,16 +154,71 @@ span {
     padding: 20px 0;
 }
 
+.profile {
+    height: auto;
+    max-width: 100%;
+}
+
 .skill-row {
-    width: 50%;
+    max-width: 50%;
     margin: 100px auto 100px auto;
     line-height: 2;
     text-align: left;
 }
 
+.skills {
+    max-width: 100%;
+    height: auto;
+}
 
 .top {
+    max-width: 100%;
+    height: auto;
     padding-top: 100px;
     background-color: #EEEEEE;
     position: relative;
+}
+
+#flt {
+    float: left;
+}
+
+#nav-bar {
+    height: auto;
+    max-width: 100%;
+    color: #EAF6F6;
+    text-align: right;
+}
+
+@media (max-width: 310px) {
+    body {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 15vw;
+        margin-top: 30%;
+        margin-bottom: 0%;
+    }
+
+    h2 {
+        font-size: 07vw;
+        margin: 30% auto 0 auto;
+    }
+
+    .top {
+        width: 100%;
+        height: auto;
+    }
+
+    .cloud-a {
+        display: none;
+    }
+    .cloud-b {
+        display: none;
+    }
+
+    
+
 }
